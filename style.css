@@ -1,0 +1,93 @@
+/* head */
+  .header {
+	height: 100px;
+	background-image:url(pexels-pixabay-326311.jpg);
+  height: 150px;
+}
+
+nav{
+  border: 2px solid white;
+  margin: 0px 0px 5px 0px;
+  float: right;
+}
+
+/* main */
+
+
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 20px;
+}
+
+/*background */
+body{
+  background-image:url(unnamed.jpg)
+}
+
+/* image */
+img {
+  display: block;
+  margin: 1px auto;
+  width: 300px;
+  height:300px;
+}
+
+p{
+  color: white;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  text-align: center
+}
+
+.align-right {
+  text-align: right;
+  margin: 30px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+/* unordered list */
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left;
+     font-size: 22px;
+     color: red
+}
+
+ol{ display: inline-block; text-align: left;
+  font-size: 25px; 
+}
+
+.btn-about {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  font-size: 25px;
+}
+
+.btn-contact {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  font-size: 25px;
+}
+
+/* Contact me */
+
+footer {
+    background-color: darkolivegreen;
+    margin: 100px 0 0 0;
+    padding: 20px 0;
+}
+
+a:link    { color: blue; }
+a:visited { color: purple; }
+a:hover   { color: green; }
+a:active  { color: red;  }
